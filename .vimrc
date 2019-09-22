@@ -28,12 +28,6 @@ set softtabstop=4
 set shiftround
 " No line-wrapping
 set nowrap
-" Spell-check always on
-set spell
-" Underline spelling mistakes
-highlight SpellBad cterm=underline
-" Underscores denote words
-set iskeyword-=_
 " No extra spaces when joining lines
 set nojoinspaces
 " Interpret numbers with leading zeroes as decimal, not octal
