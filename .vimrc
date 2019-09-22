@@ -24,10 +24,7 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
-" Round indent to nearest multiple of 2
 set shiftround
-" No line-wrapping
-set nowrap
 " No extra spaces when joining lines
 set nojoinspaces
 " Interpret numbers with leading zeroes as decimal, not octal
