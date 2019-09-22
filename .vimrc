@@ -21,9 +21,9 @@ set hidden
 filetype plugin indent on
 " 2 spaces please
 set expandtab
-set shiftwidth=2
-set tabstop=2
-set softtabstop=2
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
 " Round indent to nearest multiple of 2
 set shiftround
 " No line-wrapping
@@ -61,16 +61,6 @@ set listchars=tab:»-,trail:·
 set relativenumber
 " ...but absolute numbers on the current line (hybrid numbering)
 set number
-" Force the cursor onto a new line after 80 characters
-set textwidth=80
-" However, in Git commit messages, let’s make it 72 characters
-autocmd FileType gitcommit set textwidth=72
-" Colour the column just after our line limit so that we don’t type over it
-set colorcolumn=+1
-" In Git commit messages, also colour the 51st column (for titles)
-autocmd FileType gitcommit set colorcolumn+=51
-" Highlight current line
-set cursorline
 
 " Don’t keep results highlighted after searching...
 set nohlsearch
