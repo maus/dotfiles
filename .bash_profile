@@ -34,5 +34,5 @@ function edit_and_source_file() {
 }
 
 if [ -f ~/.dotfiles/wp-completion.bash ]; then
-    source ~/.dotfiles/.wp-completion.bash
+    source ~/.dotfiles/wp-completion.bash
 fi
