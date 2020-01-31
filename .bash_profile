@@ -32,3 +32,7 @@ function edit_and_source_file() {
 	vim $1 ; 
 	source $1
 }
+
+if [ -f ~/.dotfiles/wp-completion.bash ]; then
+    source ~/.wp-completion.bash
+fi
