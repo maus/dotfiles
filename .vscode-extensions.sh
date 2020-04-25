@@ -1,3 +1,6 @@
+# * Generate list of extensions:
+# code --list-extensions | xargs -L 1 echo code --install-extension
+
 code --install-extension aaron-bond.better-comments
 code --install-extension ban.spellright
 code --install-extension bmewburn.vscode-intelephense-client
