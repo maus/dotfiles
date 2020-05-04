@@ -33,6 +33,11 @@ function edit_and_source_file() {
 	source $1
 }
 
+alias ts=convert_date_to_utc_timestamp
+function convert_date_to_utc_timestamp() {
+    date -d "$1:00 UTC" +%s
+}
+
 if [ -f ~/.dotfiles/wp-completion.bash ]; then
     source ~/.dotfiles/wp-completion.bash
 fi
