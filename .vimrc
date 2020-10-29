@@ -48,8 +48,6 @@ set title
 " Show invisibles
 set list
 set listchars=tab:»-,trail:·
-" Set relative line numbers...
-set relativenumber
 " ...but absolute numbers on the current line (hybrid numbering)
 set number
 
