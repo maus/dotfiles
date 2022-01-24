@@ -47,9 +47,9 @@ set ruler
 set title
 " Show invisibles
 set list
-set listchars=tab:»-,trail:·
+" set listchars=tab:»-,trail:·
 " ...but absolute numbers on the current line (hybrid numbering)
-set number
+" set number
 
 " Don’t keep results highlighted after searching...
 set nohlsearch

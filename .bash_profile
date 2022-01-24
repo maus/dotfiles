@@ -10,6 +10,7 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
+HISTTIMEFORMAT="%d/%m/%y %T "
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
