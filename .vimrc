@@ -46,7 +46,7 @@ set ruler
 " Show file title in terminal tab
 set title
 " Show invisibles
-set list
+" set list
 " set listchars=tab:»-,trail:·
 " ...but absolute numbers on the current line (hybrid numbering)
 " set number
