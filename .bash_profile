@@ -39,6 +39,12 @@ function convert_date_to_utc_timestamp() {
     date -d "$1:00 UTC" +%s
 }
 
+alias fetch=fetch_origin_and_checkout_tag
+function fetch_origin_and_checkout_tag() {
+        git fetch origin ;
+        git checkout "v"$1
+}
+
 if [ -f ~/.dotfiles/wp-completion.bash ]; then
     source ~/.dotfiles/wp-completion.bash
 fi
