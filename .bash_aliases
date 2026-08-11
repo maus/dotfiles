@@ -1,4 +1,4 @@
-alias ll="ls -lha"
+alias ll="ls -lha --group-directories-first"
 
 alias l="git log --pretty=format:'%C(yellow)%h %Cblue%>(12)%ad %Cred%d %Creset%s'"
 alias lg="git log --oneline | grep -i"

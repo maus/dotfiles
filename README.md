@@ -5,10 +5,10 @@ Notes to future self.
 ## Get the boilerplate
 
 After cloning the repo in your home (~), create or update ~/.bash_profile to:
-`source ~/.dotfiles/.bash_profile`
+`. /home/maus/.dotfiles/.bash_profile`
 
 If you use vim, do the same with ~/.vimrc, except:
-`source ~/.dotfiles/.vimrc`
+`cd ~ && ln -s .dotfiles/.vimrc .vimrc`
 
 ## Machine specific
 
