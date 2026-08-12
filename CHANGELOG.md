@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.11.1
+Documented the BASH_ALIASES_LOADED guard in the README.
+
+Explains why a machine's own `~/.bash_aliases` should set `export BASH_ALIASES_LOADED=1` as its first line when the OS default `~/.bashrc` also sources it, so `~/.bash_profile` doesn't load it a second time on a login shell.
+
+_Release date: 08.12.2026_
+
+**Improvements**
+
+- README.md :: documented the `BASH_ALIASES_LOADED` guard and when a machine-specific `~/.bash_aliases` needs to set it
+
+***
+
 ## 1.11.0
 Submodule status tracking and changelog-driven commits, plus a corrected README
 
